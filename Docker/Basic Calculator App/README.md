@@ -7,11 +7,15 @@ conda activate test
 pip install -r requirements.txt
 
 
+
 ## Docker Test
 
 docker pull hello-world
 
 docker run hello-world
+
+#### if your image is interactive or want user input
+docker run -ti image_name 
 
 
 ```bash
